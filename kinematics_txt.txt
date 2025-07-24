@@ -1,0 +1,218 @@
+================================================================================
+                            KINEMATICS REFERENCE GUIDE
+                           The Three Equations of Motion
+================================================================================
+
+INTRODUCTION
+------------
+Kinematics is the branch of physics that describes the motion of objects without 
+considering the forces that cause the motion. This reference guide covers the 
+three fundamental equations of motion for constant acceleration.
+
+================================================================================
+THE THREE EQUATIONS OF MOTION
+================================================================================
+
+FIRST EQUATION OF MOTION
+-------------------------
+                                v = u + at
+
+Where:
+  v = final velocity (m/s)
+  u = initial velocity (m/s)  
+  a = acceleration (m/s²)
+  t = time (s)
+
+This equation relates velocity, acceleration, and time.
+
+SECOND EQUATION OF MOTION
+-------------------------
+                              s = ut + ½at²
+
+Where:
+  s = displacement (m)
+  u = initial velocity (m/s)
+  t = time (s)
+  a = acceleration (m/s²)
+
+This equation gives displacement in terms of initial velocity, time, and 
+acceleration.
+
+THIRD EQUATION OF MOTION
+------------------------
+                              v² = u² + 2as
+
+Where:
+  v = final velocity (m/s)
+  u = initial velocity (m/s)
+  a = acceleration (m/s²)
+  s = displacement (m)
+
+This equation relates velocities, acceleration, and displacement 
+(time-independent).
+
+================================================================================
+KEY CONCEPTS
+================================================================================
+
+DISPLACEMENT VS DISTANCE
+-------------------------
+• Displacement: Vector quantity (direction matters)
+• Distance: Scalar quantity (magnitude only)
+
+VELOCITY VS SPEED
+-----------------
+• Velocity: Vector (includes direction)
+• Speed: Scalar (magnitude of velocity)
+
+ACCELERATION
+------------
+Rate of change of velocity with time. Can be positive (speeding up) or 
+negative (slowing down).
+
+================================================================================
+PROBLEM-SOLVING STEPS
+================================================================================
+
+1. Identify given values
+2. Determine what to find
+3. Choose appropriate equation
+4. Substitute values
+5. Solve and check units
+
+================================================================================
+COMMON PROBLEM TYPES
+================================================================================
+
+TYPE 1: FINDING FINAL VELOCITY
+-------------------------------
+Given: u, a, t
+Use: v = u + at
+
+TYPE 2: FINDING DISPLACEMENT
+----------------------------
+Given: u, a, t
+Use: s = ut + ½at²
+
+TYPE 3: TIME-INDEPENDENT PROBLEMS
+---------------------------------
+Given: u, v, a
+Use: v² = u² + 2as
+
+================================================================================
+SIGN CONVENTIONS
+================================================================================
+
+• Positive direction: Usually upward or rightward
+• Negative direction: Usually downward or leftward
+• Gravity: g = -9.8 m/s² (when upward is positive)
+
+================================================================================
+EXAMPLE PROBLEM
+================================================================================
+
+PROBLEM: A car accelerates from rest at 2 m/s² for 5 seconds.
+
+GIVEN:
+  u = 0 m/s (from rest)
+  a = 2 m/s²
+  t = 5 s
+
+SOLUTION:
+  Find final velocity: v = u + at = 0 + (2)(5) = 10 m/s
+  Find displacement: s = ut + ½at² = 0(5) + ½(2)(5)² = 25 m
+
+ANSWER: Final velocity = 10 m/s, Displacement = 25 m
+
+================================================================================
+QUICK REFERENCE TABLE
+================================================================================
+
+Given Variables    |    Use Equation     |    To Find
+-------------------|---------------------|-------------
+u, a, t           |    v = u + at       |    v
+u, a, t           |    s = ut + ½at²    |    s
+u, v, a           |    v² = u² + 2as    |    s
+u, v, t           |    s = (u + v)t/2   |    s
+
+================================================================================
+UNITS
+================================================================================
+
+Quantity                    Symbol    Unit
+--------------------------------------------
+Displacement/Distance       s         meters (m)
+Velocity/Speed             v, u       meters per second (m/s)
+Acceleration               a          meters per second squared (m/s²)
+Time                       t          seconds (s)
+
+================================================================================
+TIPS FOR SUCCESS
+================================================================================
+
+• Always define your coordinate system
+• Check if acceleration is constant
+• Pay attention to signs (positive/negative)
+• Verify units in final answer
+• Sketch the motion when possible
+• Double-check your algebra
+• Ensure your answer makes physical sense
+
+================================================================================
+ADDITIONAL FORMULAS
+================================================================================
+
+Average velocity when acceleration is constant:
+  v_avg = (u + v)/2
+
+Alternative form for displacement:
+  s = v_avg × t = ((u + v)/2) × t
+
+For motion under gravity (free fall):
+  Replace 'a' with 'g' = 9.8 m/s² (downward)
+  If upward is positive: g = -9.8 m/s²
+  If downward is positive: g = +9.8 m/s²
+
+================================================================================
+PROBLEM-SOLVING CHECKLIST
+================================================================================
+
+Before solving:
+□ Read the problem carefully
+□ Identify what is given and what to find
+□ Choose a coordinate system
+□ Draw a diagram if helpful
+
+During solving:
+□ Select the appropriate equation
+□ Substitute values with correct signs
+□ Solve algebraically before inserting numbers
+□ Check units throughout
+
+After solving:
+□ Verify units in final answer
+□ Check if answer makes physical sense
+□ Review calculations for errors
+
+================================================================================
+COMMON MISTAKES TO AVOID
+================================================================================
+
+• Forgetting to square the time in s = ut + ½at²
+• Using wrong signs for acceleration or displacement
+• Mixing up initial and final velocities
+• Forgetting the ½ factor in the second equation
+• Using equations when acceleration is not constant
+• Confusing distance with displacement
+• Not checking units in the final answer
+
+================================================================================
+END OF REFERENCE GUIDE
+================================================================================
+
+This reference guide covers the essential concepts and equations needed for 
+solving kinematics problems involving constant acceleration. Practice with 
+various problem types will help develop proficiency in applying these concepts.
+
+For more complex motion (non-constant acceleration), calculus-based methods 
+are required.
